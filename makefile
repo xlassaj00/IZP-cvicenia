@@ -1,8 +1,8 @@
 CC = gcc
 CFLAGS = -std=c23 -Wall -Wextra -Werror 
 LDFLAGS = -lm
-TARGET = test5
-SRC = test5.c
+TARGET = test7
+SRC = test7.c
 
 $(TARGET): $(SRC)
 	$(CC) $(CFLAGS) -o $(TARGET) $(SRC) $(LDFLAGS)
