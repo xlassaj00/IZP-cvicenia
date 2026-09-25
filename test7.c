@@ -21,5 +21,25 @@ int main(void)
         
     }
     
+    int max = pole[0], min = pole[0];
+    for (int i =0 ; i < pocet_opakovani; i++ ){
+        if (max < pole[i]){
+            max = pole[i]; 
+        }
+        if (min >= pole[i]){
+            min = pole[i];
+        }
+    }
+    printf("maximum je %d\n", max);
+    printf("minimum je %d\n", min);
+    
+
+    int medzihodnota;
+    for (int i = 0; i < pocet_opakovani; i++ ){
+        medzihodnota += pole[i];
+    }
+    float priemer = (float)medzihodnota/ pocet_opakovani;
+    printf("priemer je %f\n", priemer);
+
     return 0;
 }
