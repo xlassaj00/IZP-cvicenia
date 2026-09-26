@@ -1,4 +1,6 @@
 //nacitanie cisel do pola a ich vypisanie v opacnom poradi
+//obrateny priechod polom
+//vyhladanie maxima minima a premeru tychto cisel
 #include <stdio.h>
 int main(void)
 {
