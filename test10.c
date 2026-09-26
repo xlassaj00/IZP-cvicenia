@@ -1,9 +1,10 @@
+//zobrazenie casu z hodin a minut v sekundach
 #include <stdio.h>
 int main()
 {
     int hodiny, minuty, sekundy, hodiny_v_sekundach, minuty_v_sekundach;
 
-    
+
     printf("zadajte cas v hodinach a minutach oddelene:\n");
     scanf("%d %d", &hodiny, &minuty);
 
